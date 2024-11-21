@@ -1,0 +1,29 @@
+RESPUESTAS RAMA DESARROLLO
+
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+	azul
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+	ROJO
+C- ¿Qué color de fondo tiene su página en el MASTER?
+	ROJO
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+	EL QUE AGREGO EL MASTER, NO HAY ALFA NI BETA.
+
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+	El comando git push -f (push forzado) sobrescribe el historial remoto con el historial local de
+forma completa. Esto puede causar problemas graves en un entorno colaborativo, ya que:
+
+Pérdida de cambios: Si alguien utiliza git push -f, sobrescribirá los cambios en el servidor
+remoto, eliminando los commits de otros usuarios que no estén en el historial local.
+Conflictos en el equipo: Cualquier persona que tenga una versión diferente de la rama en su
+máquina local puede enfrentarse a conflictos al intentar sincronizar su trabajo.
+Historial inconsistente: El historial de la rama se reescribe, lo que puede dificultar el rastreo de
+quién hizo qué cambios y cuándo.
+
+En resumen: el uso de git push -f solo se debe hacer en casos muy específicos, como cuando sE
+necesita corregir commits en una rama donde no colaboran múltiples personas. 
+En equipos, es mejor evitarlo.
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ? 
